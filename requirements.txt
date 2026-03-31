@@ -1,4 +1,3 @@
 python-pptx
 streamlit
 requests
-pywin32
