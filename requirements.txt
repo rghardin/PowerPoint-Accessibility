@@ -1,3 +1,4 @@
 python-pptx
 streamlit
 requests
+Wand
