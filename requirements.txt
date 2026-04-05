@@ -2,3 +2,4 @@ python-pptx
 streamlit
 requests
 Wand
+PyMuPDF
