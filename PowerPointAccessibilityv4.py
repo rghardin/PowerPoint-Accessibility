@@ -11,9 +11,7 @@ import requests
 import streamlit as st
 from io import BytesIO
 from pptx import Presentation
-from pptx.util import Inches, Pt
 from pptx.enum.shapes import MSO_SHAPE_TYPE
-from pptx.oxml.ns import qn
 import base64
 import zipfile
 import os
@@ -21,14 +19,7 @@ import tempfile
 import shutil
 import platform
 import subprocess
-import json
 from PIL import Image
-from reportlab.lib.pagesizes import letter, landscape
-from reportlab.pdfgen import canvas
-from reportlab.lib.units import inch
-from pdf2image import convert_from_path
-import fitz  # PyMuPDF for PDF manipulation
-
 
 def call_models_api(api_key):
     """Fetch available models from TAMU AI API"""
