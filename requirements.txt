@@ -1,5 +1,6 @@
 python-pptx
 streamlit
 requests
+Pillow
 Wand
 PyMuPDF
