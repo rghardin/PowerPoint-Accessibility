@@ -1,3 +1,1 @@
 libreoffice
-libmagickwand-dev
-imagemagick
